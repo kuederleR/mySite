@@ -1,0 +1,89 @@
+.toggle {
+    height: 50px;
+    width: 100px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+
+}
+.toggle-slider {
+    width: 50px;
+    height: 50px;
+    background-color: #dddddd;
+    border-radius: 10px;
+    transition: 1s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.toggle-slider:hover {
+    cursor: grab;
+}
+
+.calc {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100px;
+    
+}
+
+input {
+    height: 46px;
+    margin-right: 0px;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    transition: 1s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.output {
+    width: 100px;
+    margin-left: 12px;
+    height: 46px;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    transition: 1s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+.output:hover {
+    background-color: #eeeeee;
+    cursor: grab;
+}
+
+#clear {
+    background-color: inherit;
+    border: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+#clear:hover {
+    cursor: grab;
+}
